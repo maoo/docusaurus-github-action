@@ -20,5 +20,5 @@ if ! [ -z "$MAJOR_DOCS_VERSION" ] && [ $MAJOR_PACKAGE_VERSION == $MAJOR_DOCS_VER
   npm run version $PACKAGE_VERSION
 else
   echo "In case of a major release or first docs update; you need to do the version update manually"
-  echo "Here you have more information about the manual versioning => https://github.com/clay/'$PROJECT_NAME'/tree/master/website#versioning-the-code"
+  echo "Here you have more information about the manual versioning => https://github.com/maoo/'$PROJECT_NAME'/tree/master/website#versioning-the-code"
 fi

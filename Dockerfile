@@ -5,9 +5,9 @@ LABEL "com.github.actions.description"="Handles all the documentation action."
 LABEL "com.github.actions.icon"="book-open"
 LABEL "com.github.actions.color"="blue-dark"
 
-LABEL "repository"="https://github.com/clay/docusaurus-github-action"
-LABEL "homepage"="https://github.com/clay/docusaurus-github-action"
-LABEL "maintainer"="Jon Winton <@jonwinton>"
+LABEL "repository"="https://github.com/maoo/docusaurus-github-action"
+LABEL "homepage"="https://github.com/maoo/docusaurus-github-action"
+LABEL "maintainer"="Maurizio Pillitu <@maoo>"
 
 
 RUN apk update && \

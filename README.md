@@ -42,18 +42,18 @@ action "Install" {
 
 action "Update version" {
   needs = ["Install"]
-  uses = "clay/docusaurus-github-action@master"
+  uses = "maoo/docusaurus-github-action@master"
   args = "version"
 }
 
 action "Deploy Docs" {
   needs = ["Update version"]
-  uses = "clay/docusaurus-github-action@master"
+  uses = "maoo/docusaurus-github-action@master"
   args="deploy"
   secrets = ["DEPLOY_SSH_KEY", "ALGOLIA_API_KEY"]
   env={
       BUILD_DIR = "website",
-      PROJECT_NAME = "clay"
+      PROJECT_NAME = "maoo"
   }
 }
 ```
